@@ -1,6 +1,6 @@
 import com.ibm.watson.developer_cloud.assistant.v1.*;
 import com.ibm.watson.developer_cloud.assistant.v1.model.*;
-import com.ibm.watson.developer_cloud.util.GsonSerializationHelper;
+
 
 import java.util.*;
 
