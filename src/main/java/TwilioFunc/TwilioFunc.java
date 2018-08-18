@@ -1,6 +1,11 @@
+package TwilioFunc;
+
+
 import com.twilio.Twilio;
 import com.twilio.rest.api.v2010.account.Message;
+import com.twilio.rest.api.v2010.account.Call;
 import com.twilio.type.PhoneNumber;
+import java.net.URI;
 import java.util.HashMap;
 
 public class TwilioFunc{
@@ -12,19 +17,29 @@ public class TwilioFunc{
 
     public void send_sms(String to, String text){
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        Message message = Message.creator(new PhoneNumber("+" + to),
+        Message message = Message.creator(new PhoneNumber("+91" + to),
                 new PhoneNumber("+17177440557"),
                 text).create();
     }
 
+    public void place_call(String to){
+        Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
+        Call call = Call.creator(
+                new com.twilio.type.PhoneNumber("+91" + to),
+                new com.twilio.type.PhoneNumber("+17177440557"),
+                URI.create("http://demo.twilio.com/docs/voice.xml"))
+                .create();
+
+    }
+
     public HashMap phoneBook(){
-        phoneLog.put("mum", "919819585343");
+        phoneLog.put("mum", "9819585343");
 
         return phoneLog;
     }
     public static void main(String[] args) {
         TwilioFunc twilio = new TwilioFunc();
         String number = twilio.phoneBook().get("mum").toString();
-        twilio.send_sms(number, "Zieana is back");
+        twilio.place_call(number);
     }
 }

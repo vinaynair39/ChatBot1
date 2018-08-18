@@ -2,26 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e621213-45f3-4b8a-963b-08aab2bc8e54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Twilio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TwilioFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/Conversation.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Conversation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/chatbot1-1.0-SNAPSHOT.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/chatbot1-1.0-SNAPSHOT.tar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/chatbot1-1.0-SNAPSHOT.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/chatbot1-1.0-SNAPSHOT.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/chatbot1-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/chatbot1-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scripts/chatbot1" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/chatbot1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scripts/chatbot1.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/chatbot1.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Conversation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Conversation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Conversation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/TwilioFunc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Conversation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Conversation/Conversation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Twilio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ChatBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TwilioFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TwilioFunc/TwilioFunc.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -40,6 +36,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -69,26 +68,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="TwilioFunc" value="1" />
-          <entry key="gradle" value="4" />
-          <entry key="java" value="17" />
+          <entry key="gradle" value="5" />
+          <entry key="java" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="4" />
-          <entry key="JAVA" value="18" />
+          <entry key="Groovy" value="5" />
+          <entry key="JAVA" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gradle" value="109" />
-          <entry key="java" value="2776" />
+          <entry key="gradle" value="137" />
+          <entry key="java" value="5165" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="109" />
-          <entry key="JAVA" value="2776" />
+          <entry key="Groovy" value="137" />
+          <entry key="JAVA" value="5163" />
+          <entry key="RegExp" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -98,32 +98,61 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="202">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Conversation.java">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.3/eab1ff15884e40c0adafe219a98c46513eb1d0e6/jackson-databind-2.9.3-sources.jar!/com/fasterxml/jackson/databind/ObjectWriter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <marker date="1534506343721" expanded="true" signature="969:1921" ph="..." />
-              </folding>
+            <state relative-caret-position="228">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TwilioFunc.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ChatBot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+            <state relative-caret-position="386">
+              <caret line="43" column="63" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#466#482#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TwilioFunc/TwilioFunc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ibm.watson.developer_cloud/assistant/6.3.1/157ec3697d39ae201a0dc1a13b2df5d44d02ee3b/assistant-6.3.1-sources.jar!/com/ibm/watson/developer_cloud/assistant/v1/model/CreateWorkspaceOptions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2673">
+              <caret line="180" column="19" selection-start-line="180" selection-start-column="19" selection-end-line="180" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Conversation/Conversation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+              <folding>
+                <marker date="1534585864947" expanded="true" signature="1101:2608" ph="..." />
               </folding>
             </state>
           </provider>
@@ -134,7 +163,6 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>iam</find>
-      <find>context</find>
       <find>input</find>
       <find>builder</find>
       <find>MessageOp</find>
@@ -142,6 +170,8 @@
       <find>messageres</find>
       <find>get</find>
       <find>getCon</find>
+      <find>context</find>
+      <find>system</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -355,9 +385,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6137467854013" />
+        <entry key="$PROJECT_DIR$" value="6137545891504" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="728565715" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="341097519" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="3932922752" />
       </map>
@@ -548,10 +578,14 @@
         <option value="$PROJECT_DIR$/conversation.java" />
         <option value="$PROJECT_DIR$/src/main/java/conversation.java" />
         <option value="$PROJECT_DIR$/Assistant/Assistant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Conversation.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/Twilio.java" />
         <option value="$PROJECT_DIR$/src/main/java/TwilioFunc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Conversation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/Conversation/Conversation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TwilioFunc/TwilioFunc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ChatBot.java" />
       </list>
     </option>
   </component>
@@ -598,6 +632,14 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="chatbot1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chatbot1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TwilioFunc" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -608,13 +650,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="getIntents&#9;PSI&#9;JAVA://com.ibm.watson.developer_cloud.assistant.v1.model.DialogSuggestionValue#getIntents&#10;getintent&#9;PSI&#9;JAVA://com.ibm.watson.developer_cloud.assistant.v1.model.RuntimeIntent#getIntent" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534508526586" />
+    <property name="SearchEverywhereHistoryKey" value="getIntents&#9;PSI&#9;JAVA://com.ibm.watson.developer_cloud.assistant.v1.model.DialogSuggestionValue#getIntents&#10;intents&#9;PSI&#9;JAVA://com.ibm.watson.developer_cloud.assistant.v1.model.CreateWorkspaceOptions.Builder#intents&#10;getContext&#9;PSI&#9;JAVA://com.ibm.watson.developer_cloud.assistant.v1.model.DialogNode#getContext&#10;OutputData&#9;PSI&#9;JAVA://com.ibm.watson.developer_cloud.assistant.v1.model.OutputData&#10;getOutput&#9;PSI&#9;JAVA://com.ibm.watson.developer_cloud.assistant.v1.model.MessageResponse#getOutput&#10;getText&#9;PSI&#9;JAVA://com.ibm.watson.developer_cloud.assistant.v1.model.Counterexample#getText&#10;serializeDyna&#9;PSI&#9;JAVA://com.ibm.watson.developer_cloud.util.GsonSerializationHelper#serializeDynamicModelProperty&#10;TypeToke&#9;PSI&#9;JAVA://com.google.common.reflect.TypeToken&#10;getConver&#9;PSI&#9;JAVA://com.ibm.watson.developer_cloud.conversation.v1.model.Context#getConversationId&#10;getConversationId&#9;PSI&#9;JAVA://com.ibm.watson.developer_cloud.assistant.v1.model.Context#getConversationId&#10;ObjectWr&#9;PSI&#9;JAVA://com.fasterxml.jackson.databind.ObjectWriter&#10;getintent&#9;PSI&#9;JAVA://com.ibm.watson.developer_cloud.assistant.v1.model.RuntimeIntent#getIntent" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534587828063" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -633,24 +675,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TwilioFunc">
+  <component name="RunManager" selected="Application.TwilioFunc (1)">
+    <configuration name="ChatBot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChatBot" />
+      <module name="chatbot1_main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Conversation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Conversation" />
+      <option name="MAIN_CLASS_NAME" value="Conversation.Conversation" />
       <module name="chatbot1_main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Twilio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Twilio" />
+    <configuration name="TwilioFunc (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwilioFunc.TwilioFunc" />
       <module name="chatbot1_main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Twilio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Twilio1" />
-      <module name="chatbot1_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TwilioFunc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -662,7 +710,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chatbot1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="chatbot1 [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -672,7 +720,9 @@
           <list />
         </option>
         <option name="taskNames">
-          <list />
+          <list>
+            <option value="run" />
+          </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
@@ -680,18 +730,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Conversation" />
-      <item itemvalue="Gradle.chatbot1" />
-      <item itemvalue="Application.Twilio" />
-      <item itemvalue="Application.Twilio1" />
       <item itemvalue="Application.TwilioFunc" />
+      <item itemvalue="Gradle.chatbot1 [run]" />
+      <item itemvalue="Application.ChatBot" />
+      <item itemvalue="Application.TwilioFunc (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TwilioFunc" />
-        <item itemvalue="Application.Twilio1" />
-        <item itemvalue="Application.Twilio" />
-        <item itemvalue="Gradle.chatbot1" />
+        <item itemvalue="Application.ChatBot" />
+        <item itemvalue="Application.TwilioFunc (1)" />
         <item itemvalue="Application.Conversation" />
+        <item itemvalue="Gradle.chatbot1 [run]" />
+        <item itemvalue="Application.TwilioFunc" />
       </list>
     </recent_temporary>
   </component>
@@ -721,16 +771,16 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14145234" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32923076" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41076922" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27384615" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -739,7 +789,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.30461538" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32615384" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3276923" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -833,48 +883,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ibm.watson.developer_cloud/assistant/6.3.1/157ec3697d39ae201a0dc1a13b2df5d44d02ee3b/assistant-6.3.1-sources.jar!/com/ibm/watson/developer_cloud/assistant/v1/model/DialogSuggestionValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1413#1414#0" expanded="true" />
-            <element signature="e#1437#1438#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Twilio.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TwilioFunc">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Conversation.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ibm.watson.developer_cloud/assistant/6.3.1/157ec3697d39ae201a0dc1a13b2df5d44d02ee3b/assistant-6.3.1-sources.jar!/com/ibm/watson/developer_cloud/assistant/v1/model/Context.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="137">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar!/com/google/common/reflect/TypeToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2153">
+          <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ibm.watson.developer_cloud/core/6.3.1/26dcfc1378d2e068ccd2f91c9379bee62967cfcf/core-6.3.1-sources.jar!/com/ibm/watson/developer_cloud/util/GsonSerializationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ibm.watson.developer_cloud/conversation/6.3.1/8c2910ba93a7ea19b363c5964841bf7a0bce2e64/conversation-6.3.1-sources.jar!/com/ibm/watson/developer_cloud/conversation/v1/model/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <caret line="36" column="3" selection-start-line="34" selection-start-column="36" selection-end-line="36" selection-end-column="3" />
           <folding>
-            <marker date="1534506343721" expanded="true" signature="969:1921" ph="..." />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TwilioFunc.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ibm.watson.developer_cloud/assistant/6.3.1/157ec3697d39ae201a0dc1a13b2df5d44d02ee3b/assistant-6.3.1-sources.jar!/com/ibm/watson/developer_cloud/assistant/v1/model/Counterexample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+        <state relative-caret-position="307">
+          <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <folding>
+            <element signature="e#1051#1052#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ibm.watson.developer_cloud/assistant/6.3.1/157ec3697d39ae201a0dc1a13b2df5d44d02ee3b/assistant-6.3.1-sources.jar!/com/ibm/watson/developer_cloud/assistant/v1/model/OutputData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-832">
+          <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ibm.watson.developer_cloud/assistant/6.3.1/157ec3697d39ae201a0dc1a13b2df5d44d02ee3b/assistant-6.3.1-sources.jar!/com/ibm/watson/developer_cloud/assistant/v1/model/MessageResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="35" column="52" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#466#482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ibm.watson.developer_cloud/assistant/6.3.1/157ec3697d39ae201a0dc1a13b2df5d44d02ee3b/assistant-6.3.1-sources.jar!/com/ibm/watson/developer_cloud/assistant/v1/model/DialogNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="209" column="13" selection-start-line="209" selection-start-column="13" selection-end-line="209" selection-end-column="13" />
+          <folding>
+            <element signature="e#5451#5452#0" expanded="true" />
+            <element signature="e#5475#5476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ibm.watson.developer_cloud/assistant/6.3.1/157ec3697d39ae201a0dc1a13b2df5d44d02ee3b/assistant-6.3.1-sources.jar!/com/ibm/watson/developer_cloud/assistant/v1/model/DialogSuggestionValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-421">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#1413#1414#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.3/eab1ff15884e40c0adafe219a98c46513eb1d0e6/jackson-databind-2.9.3-sources.jar!/com/fasterxml/jackson/databind/ObjectWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ibm.watson.developer_cloud/assistant/6.3.1/157ec3697d39ae201a0dc1a13b2df5d44d02ee3b/assistant-6.3.1-sources.jar!/com/ibm/watson/developer_cloud/assistant/v1/model/CreateWorkspaceOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2673">
+          <caret line="180" column="19" selection-start-line="180" selection-start-column="19" selection-end-line="180" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Conversation/Conversation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+          <folding>
+            <marker date="1534585864947" expanded="true" signature="1101:2608" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TwilioFunc/TwilioFunc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ChatBot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="43" column="63" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -885,6 +1026,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>chatbot1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
