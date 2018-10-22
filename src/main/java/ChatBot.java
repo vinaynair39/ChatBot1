@@ -25,7 +25,6 @@ public class ChatBot{
                 String intent = data.get("intent").toString();
                 String output = data.get("output").toString();
                 String value = data.get("value").toString();
-                System.out.println(data);
                 if(intent.equals("send_sms")){
                     System.out.println(output);
                     String person = Zieana.context.get("person").toString();

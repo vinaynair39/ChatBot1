@@ -80,9 +80,13 @@ public class Conversation{
         }
 
         if(!this.response.getEntities().isEmpty()){
-            value = this.response.getEntities().get(1).getValue();
-            mapper.put("value", value);
-        }
+            try {
+                value = this.response.getEntities().get(1).getValue();
+                mapper.put("value", value);
+            }
+            catch (Exception e) {
+            }
+            }
         else{
             value = "";
             mapper.put("value", value);
