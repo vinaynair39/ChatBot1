@@ -17,7 +17,7 @@ public class Dictionary{
         try {
             String data = response.getBody().getObject().get("synonyms").toString();
             String[] dataArray = data.split(",");
-            return "The synonym of " + word + " is " + dataArray[1] + ".";
+            return "The synonym of " + word + " is " + dataArray[1].replace("[", "") + ".";
         }
         catch(Exception e){
             System.out.println("Check the spelling of your word, I Guess it might be wrong!");
@@ -50,7 +50,7 @@ public class Dictionary{
             String data = response.getBody().getObject().toString();
             System.out.println(data);
             String[] dataArray = data.split(",");
-            return "The Definition of " + word + " is " + dataArray[1] + ".";
+            return "The Definition of " + word + " is " + dataArray[0] + ".";
         }
         catch(Exception e){
             System.out.println("Check the spelling of your word, I Guess it might be wrong!");
@@ -61,6 +61,6 @@ public class Dictionary{
     public static void main(String arg[]) throws Exception{
         Dictionary dict = new Dictionary();
         String[] response = dict.synonyms("sex").split(",");
-        System.out.print(response[1]);
+        System.out.print(response[0]);
     }
 }

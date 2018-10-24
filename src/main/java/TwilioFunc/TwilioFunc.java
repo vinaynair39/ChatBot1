@@ -35,8 +35,8 @@ public class TwilioFunc{
     public HashMap phoneBook(){
         phoneLog.put("mum", "9819585343");
         phoneLog.put("home","9326515133");
-
-
+        phoneLog.put("dikshita", "7021706699");
+        phoneLog.put("smit","7715030820");
         return phoneLog;
     }
     public static void main(String[] args) {
